@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -7,452 +7,437 @@
 	<meta name="keywords" content="Ahmad Zuhad, Zuhad Asy'ari, Ahmad Asy'ari, Ahmad Zuhad Asy'ari, ahmadzhda99@gmail.com" />
 	<meta name="author" content="ahmadzhda99" />
 	<title>Hi, There! Zuhad Wuz Here!</title>
-	<!-- Favicon-->
-	<link rel="icon" type="image/x-icon" href="!old/assets/img/favicon.ico" />
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
 	<!-- Font Awesome icons (free version)-->
-	<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
 	<!-- Google fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
 	<!-- Core theme CSS (includes Bootstrap)-->
 	<link href="css/styles.css" rel="stylesheet" />
 </head>
-<body id="page-top">
+<body id="top">
 	<!-- Navigation-->
-	<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-		<div class="container">
-			<a class="navbar-brand" href="#page-top">My Portfolio</a>
-			<button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-				Menu
-				<i class="fas fa-bars"></i>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ms-auto">
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
-				</ul>
-			</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+		<a class="navbar-brand js-scroll-trigger" href="#page-top">
+			<span class="d-block d-lg-none">Ahmad Zuhad Asy'ari Resume</span>
+			<span class="d-none d-lg-block">
+				<img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile2.jpg" alt="" />
+			</span>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+				<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+				<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+				<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+				<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+				<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+			</ul>
 		</div>
 	</nav>
-	<!-- Masthead-->
-	<header class="masthead bg-primary text-white text-center">
-		<div class="container d-flex align-items-center flex-column">
-			<img class="masthead-avatar mb-5" src="assets/img/avataaars.png" alt="Zu" />
-			<h1 class="masthead-heading text-uppercase mb-0">Ahmad Zuhad Asy'ari</h1>
-			<div class="divider-custom divider-light">
-				<div class="divider-custom-line"></div>
-				<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-				<div class="divider-custom-line"></div>
-			</div>
-			<p class="masthead-subheading font-weight-light mb-0">Web Developer - Back End Developer - Software Engineer</p>
-		</div>
-	</header>
-	<!-- Portfolio Section-->
-	<section class="page-section portfolio" id="portfolio">
-		<div class="container">
-			<!-- Portfolio Section Heading-->
-			<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-			<!-- Icon Divider-->
-			<div class="divider-custom">
-				<div class="divider-custom-line"></div>
-				<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-				<div class="divider-custom-line"></div>
-			</div>
-			<!-- Portfolio Grid Items-->
-			<div class="row justify-content-center">
-				<!-- Portfolio Item 1-->
-				<div class="col-md-6 col-lg-4 mb-5">
-					<div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-						<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-							<div class="portfolio-item-caption-content text-center text-white">Sistem Informasi Pajak Daerah Online Badan Pendapatan Daerah Kab. Mojokerto</div>
-						</div>
-						<img class="img-fluid" src="assets/img/portfolio/sipanjol.png" alt="Sistem Informasi Pajak Daerah Online" />
-					</div>
+	<!--  -->
+	<!-- Page Content-->
+	<div class="container-fluid p-0">
+		<!-- About-->
+		<section class="resume-section" id="about">
+			<div class="resume-section-content">
+				<h1 class="mb-0">
+					Ahmad Zuhad
+					<span class="text-primary">Asy'ari</span>
+				</h1>
+				<div class="subheading mb-5">
+					Backend Developer · Odoo Developer
+					· (+62) 851-0124-0258 · <a href="mailto:ahmadzhda99@gmail.com">ahmadzhda99@gmail.com</a>
 				</div>
-				<!-- Portfolio Item 6-->
-				<div class="col-md-6 col-lg-4">
-					<div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-						<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-							<div class="portfolio-item-caption-content text-center text-white">E-Payment PBB-P2 dan Pajak Daerah Lainnya</div>
-						</div>
-						<img class="img-fluid" src="assets/img/portfolio/e-payment.png" alt="E-Payment PBB-P2 & PDL" />
-					</div>
-				</div>
-				<!-- Portfolio Item 2-->
-				<div class="col-md-6 col-lg-4 mb-5">
-					<div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-						<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-							<div class="portfolio-item-caption-content text-center text-white">Antrean Online & E-Rekam Medis RSUD Dr. Wahidin Sudirohusodo</div>
-						</div>
-						<img class="img-fluid" src="assets/img/portfolio/wahidin.png" alt="Antrean Online & ERM RSUD Dr. Wahidin Sudirohusodo" />
-					</div>
-				</div>
-				<!-- Portfolio Item 3-->
-				<div class="col-md-6 col-lg-4 mb-5">
-					<div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-						<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-							<div class="portfolio-item-caption-content text-center text-white">Sistem Informasi Manajemen & E-Rekam Medis RSUD Sidoarjo Barat</div>
-						</div>
-						<img class="img-fluid" src="assets/img/portfolio/rsud_krian.png" alt="SIMRS & ERM RSUD Sidoarjo Barat" />
-					</div>
-				</div>
-				<!-- Portfolio Item 4-->
-				<div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-					<div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-						<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-							<div class="portfolio-item-caption-content text-center text-white">Gerejaku Apps</div>
-						</div>
-						<img class="img-fluid" src="assets/img/portfolio/gerejaku.png" alt="Gerejaku Apps" />
-					</div>
-				</div>
-				<!-- Portfolio Item 5-->
-				<div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-					<div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-						<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-							<div class="portfolio-item-caption-content text-center text-white">Company Profile</div>
-						</div>
-						<img class="img-fluid" src="assets/img/portfolio/other-porto.png" alt="..." />
-					</div>
+				<p class="lead">Hi, There! My name is Zuhad.
+					My experience in web development started when I was in vocational school, and continued through college.
+				</p>
+				<p class="lead">
+					I have been working since 2019. Since I started working, I have 1.5 years experience in Odoo ERP using Python. Currently focusing on web development, especially as Backend Developer using PHP Laravel and CodeIgniter, and NodeJS.
+				</p>
+				<p class="lead">
+					I am always enthusiastic to learn and undertake new challenges. Since 2020 until now, I have attended several Digital Talent Academy online courses held by the Ministry of Communication and Information.
+				</p>
+				<p class="lead mb-5">
+					I am well organised with a clear and positive approach to problem solving, and able to work  both in a team environment as well as using own initiative.
+				</p>
+				<!-- <p class="lead mb-5">I am experienced in web development using PHP with CodeIgniter and
+					Bootstrap framework, MySQL, managing Wordpress, developing Odoo ERP modules that use Python, 
+					PostgreSQL, and other such as NodeJS and MongoDB. 
+					Currently is focusing on Website development and learning more about DevOps and Sysadmin. 
+					I love working with a team and always open to learning new things.</p> -->
+				<!-- <p class="lead mb-5">I am experienced in web development using PHP with CodeIgniter and
+					Bootstrap framework, MySQL, and managing Wordpress. 
+					Currently is focusing on backend development, developing Odoo ERP modules that use Python, 
+					PostgreSQL, and other such as NodeJS and MongoDB. 
+					I love working with a team and always open to learning new things.</p> -->
+				<div class="social-icons">
+					<a class="social-icon" target="__blank" href="https://www.linkedin.com/in/ahmad-zuhad-asyari/"><i class="fab fa-linkedin-in"></i></a>
+					<a class="social-icon" target="__blank" href="https://github.com/ahmadzhda99"><i class="fab fa-github"></i></a>
+					<a class="social-icon" target="__blank" href="https://jongsxy.wordpress.com"><i class="fab fa-wordpress-simple"></i></a>
+					<a class="social-icon" target="__blank" href="https://twitter.com/zuhad_asyari"><i class="fab fa-twitter"></i></a>
+					<a class="social-icon" target="__blank" href="https://facebook.com/zuhad.ahm"><i class="fab fa-facebook-f"></i></a>
+					<a class="social-icon" target="__blank" href="https://instagram.com/ahmadzu__"><i class="fab fa-instagram"></i></a>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- About Section-->
-	<section class="page-section bg-primary text-white mb-0" id="about">
-		<div class="container">
-			<!-- About Section Heading-->
-			<h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-			<!-- Icon Divider-->
-			<div class="divider-custom divider-light">
-				<div class="divider-custom-line"></div>
-				<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-				<div class="divider-custom-line"></div>
+		</section>
+		<hr class="m-0" />
+
+		<!-- Experience-->
+		<section class="resume-section" id="experience">
+			<div class="resume-section-content">
+				<h2 class="mb-5">Experience</h2>
+				<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="flex-grow-1">
+						<h3 class="mb-0">Software Engineer</h3>
+						<div class="subheading mb-3">Badan Pendapatan Daerah Kab. Mojokerto</div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+						</p>
+					</div>
+					<div class="flex-shrink-0"><span class="text-primary">April 2023 - Present</span></div>
+				</div>
+				<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="flex-grow-1">
+						<h3 class="mb-0">Web Developer</h3>
+						<div class="subheading mb-3">Natusi, CV</div>
+						<p>
+							Create, develop, and maintain web applications using Laravel Framework. The new thing that I got is to create web-based application using laravel framework and ExtJS, advanced Javascript and JQuery. My achievements with the team are as follows:
+							<ul>
+								<li>Hospital Management System with BPJS integration.</li>
+								<li>Web-based Queue System.</li>
+								<li>Web-based Village Information System.</li>
+								<li>Modify and develop the existing staffing system using CodeIgniter and ExtJS frameworks.</li>
+							</ul>
+						</p>
+					</div>
+					<div class="flex-shrink-0"><span class="text-primary">March 2021 - March 2023</span></div>
+				</div>
+				<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="flex-grow-1">
+						<h3 class="mb-0">IT Staff/Junior Software Engineer</h3>
+						<div class="subheading mb-3">Prima Print, CV</div>
+						<p>
+							My main job desc is developing Odoo ERP modules and IT Support. The new thing that I got is understanding python and Javascript programming language, basic of containerized application with Docker, and some of the modules in Odoo ERP, including accounting, sales, purchasing, warehouse, CRM, manufacturing, website, and e-commerce modules. My achievements with the team are as follows:
+							<ul>
+								<li>Modify and develop Odoo ERP modules in the internal company, including QC, Cashflow, E-Invoice, and some customized Report.</li>
+								<li>Responsible for the content and maintenance of the Satu Soft (Company side job) blog and website.</li>
+								<li>Customize Odoo modules for implementation in gold shop.</li>
+							</ul>
+						</p>
+						<p>
+							Besides that, My achievements with Satu Soft team are as follows:
+							<ul>
+								<li>Modify and develop Odoo ERP modules for the client company, including Manufacaturing module and some customized Report.</li>
+								<li>Create "Gerejaku" social apps during the phandemic. Responsible as Backend Developer using NodeJS with ExpressJS framework.</li>
+							</ul>
+						</p>
+					</div>
+					<div class="flex-shrink-0"><span class="text-primary">September 2019 - February 2021</span></div>
+				</div>
+				<div class="d-flex flex-column flex-md-row justify-content-between">
+					<div class="flex-grow-1">
+						<h3 class="mb-0">Web Development Intern</h3>
+						<div class="subheading mb-3">Fiesto Informatika, CV</div>
+						<p>
+							My job description is as follows:
+							<ul>
+								<li>Create and modify website templates.</li>
+								<li>Responsible for the client's blog content.</li>
+							</ul>
+						</p>
+					</div>
+					<div class="flex-shrink-0"><span class="text-primary">January 2014 - May 2014</span></div>
+				</div>
 			</div>
-			<!-- About Section Content-->
-			<div class="row">
-				<div class="col-lg-4 ms-auto"><p class="lead" style="text-align: justify;">Seorang Web Developer dengan pengalaman 5 tahun dalam mengembangkan sistem berbasis PHP menggunakan framework Laravel dan Code Igniter, NodeJS mengunakan framework ExpressJS, dan Python pada pengembangan aplikasi optimasi dan modul Odoo ERP.</p></div>
-				<div class="col-lg-4 me-auto"><p class="lead" style="text-align: justify;">Berhasil mengembangkan lebih dari 20 proyek dengan fokus pada efisiensi sistem dan integrasi data, termasuk e-payment dan rekam medis elektronik rumah sakit. Saya selalu bersemangat untuk belajar dan mencoba tantangan baru.</p></div>
+		</section>
+		<hr class="m-0" />
+
+		<!-- Education-->
+		<section class="resume-section" id="education">
+			<div class="resume-section-content">
+				<h2 class="mb-5">Education</h2>
+				<div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+					<div class="flex-grow-1">
+						<h3 class="mb-0">Universitas Pesantren Tinggi Darul Ulum, Jombang</h3>
+						<div class="subheading mb-3">Information System</div>
+						My thesis is to create a Cooperative Health Assessment System. The publication link <a href="http://eprints.unipdu.ac.id/1827/" target="__blank">is here</a>.
+						<p>GPA: 3.31/4.00</p>
+					</div>
+					<div class="flex-shrink-0"><span class="text-primary">August 2015 - July 2019</span></div>
+				</div>
+				<div class="d-flex flex-column flex-md-row justify-content-between">
+					<div class="flex-grow-1">
+						<h3 class="mb-0">SMKN 1 Dlanggu, Mojokerto</h3>
+						<div class="subheading mb-3">Software Engineering</div>
+						My final project is creating a drug sales information system at the pharmacy.
+					</div>
+					<div class="flex-shrink-0"><span class="text-primary">August 2012 - May 2015</span></div>
+				</div>
 			</div>
-			<!-- About Section Button-->
-			<div class="text-center mt-4">
-				<a class="btn btn-xl btn-outline-light" href="javascript:void(0);">
-					<i class="fas fa-download me-2"></i>
-					Free Download!
-				</a>
+		</section>
+		<hr class="m-0" />
+
+		<!-- Skills-->
+		<section class="resume-section" id="skills">
+			<div class="resume-section-content">
+				<h2 class="mb-5">Skills</h2>
+				<!-- <div class="subheading mb-3">Programming Languages & Tools</div> -->
+				<ul class="list-inline dev-icons">
+					<li class="list-inline-item"><i class="fab fa-html5"></i></li>
+					<li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+					<li class="list-inline-item"><i class="fab fa-php"></i></li>
+					<li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+					<li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+					<li class="list-inline-item"><i class="fab fa-python"></i></li>
+					<li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+					<li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+					<li class="list-inline-item"><i class="fab fa-npm"></i></li>
+					<li class="list-inline-item"><i class="fab fa-github"></i></li>
+				</ul>
+				<div class="subheading mb-1">Programming Languages</div>
+				<div class="row">
+					<div class="col-sm">
+						<ul class="fa-ul mb-0">
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>PHP
+								<!-- <div class="progress">
+									<div class="progress-bar progress-bar-striped" role="progressbar " style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+								</div><br> -->
+							</li>
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>NodeJS
+								<!-- <div class="progress">
+									<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 68%;" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">68%</div>
+								</div><br> -->
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm">
+						<ul class="fa-ul mb-0">
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>Python
+								<!-- <div class="progress">
+									<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+								</div><br> -->
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="subheading mb-1 mt-3">Framework</div>
+				<div class="row">
+					<div class="col-sm">
+						<ul class="fa-ul mb-0">
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								CodeIgniter
+								<!-- <div class="progress">
+									<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+								</div><br> -->
+							</li>
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								Laravel
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm">
+						<ul class="fa-ul mb-0">
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								ExpressJS
+							</li>
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								Bootstrap CSS
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="subheading mb-1 mt-3">Other/Tools</div>
+				<div class="row">
+					<div class="col-sm">
+						<ul class="fa-ul mb-0">
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								Technical Odoo ERP
+							</li>
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								Git
+							</li>
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								Docker
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm">
+						<ul class="fa-ul mb-0">
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								Wordpress
+							</li>
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								SEO
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="subheading mb-1 mt-3">Database</div>
+				<div class="row">
+					<div class="col-sm">
+						<ul class="fa-ul mb-0">
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								MySQL
+							</li>
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								PostgreSQL
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm">
+						<ul class="fa-ul mb-0">
+							<li>
+								<span class="fa-li"><i class="fas fa-check"></i></span>
+								MongoDB
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Contact Section-->
-	<section class="page-section" id="contact">
-		<div class="container">
-			<!-- Contact Section Heading-->
-			<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact</h2>
-			<!-- Icon Divider-->
-			<div class="divider-custom">
-				<div class="divider-custom-line"></div>
-				<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-				<div class="divider-custom-line"></div>
+		</section>
+		<hr class="m-0" />
+
+		<!-- Portfolio-->
+		<section class="resume-section" id="portfolio">
+			<div class="resume-section-content">
+				<h2 class="mb-5">Portfolio</h2>
+				<div class="row">
+					<div class="col-lg-4 text-center">
+						<img class="bd-placeholder-img rounded-circle" style="object-fit: cover" width="140" height="140" src="https://tribuanatunggajaya.com/assets/img/logo-2.png" role="img"/>
+						<h3>CV Tribuana Tungga Jaya</h3>
+						<h5>(Company Profile)</h5>
+						<p><a class="btn btn-secondary" target="__blank" href="https://tribuanatunggajaya.com/" role="button">View details »</a></p>
+					</div>
+					<div class="col-lg-4 text-center">
+						<!-- <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="https://satusoft.com/resources/webapp/img/favicon.ico" role="img"/> -->
+						<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png" role="img"/>
+						<h3>Satu Soft</h3>
+						<h5>(Company Profile & Blog)</h5>
+						<p><a class="btn btn-secondary" target="__blank" href="https://satusoft.com/" role="button">View details »</a></p>
+					</div>
+					<div class="col-lg-4 text-center">
+						<!-- <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="https://bukukujuragan.com/wp-content/uploads/2020/12/bukujuragan-e1607015321143.png" role="img"/> -->
+						<img class="bd-placeholder-img rounded-circle" width="140" height="140" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png" role="img"/>
+						<h3>Bukuku Juragan</h3>
+						<h5>(Online Shop)</h5>
+						<p><a class="btn btn-secondary" target="__blank" href="https://bukukujuragan.com/" role="button">View details »</a></p>
+					</div>
+					<div class="col-lg-4 text-center">
+						<img class="bd-placeholder-img rounded-circle" style="object-fit: cover" width="140" height="140" src="https://res.cloudinary.com/gerejaku/image/upload/v1599886568/Email%20Template%20Assets/GUSER_te4ede.png" role="img"/>
+						<h3>Gerejaku</h3>
+						<h5>(Backend)</h5>
+						<p><a class="btn btn-secondary" target="__blank" href="https://gerejaku.web.id/" role="button">View details »</a></p>
+					</div>
+				</div>
 			</div>
-			<!-- Contact Section Form-->
-			<div class="row justify-content-center">
-				<div class="col-lg-8 col-xl-7">
-					<!-- * * * * * * * * * * * * * * *-->
-					<!-- * * SB Forms Contact Form * *-->
-					<!-- * * * * * * * * * * * * * * *-->
-					<!-- This form is pre-integrated with SB Forms.-->
-					<!-- To make this form functional, sign up at-->
-					<!-- https://startbootstrap.com/solution/contact-forms-->
-					<!-- to get an API token!-->
-					<form id="contactForm" data-sb-form-api-token="API_TOKEN">
-						<!-- Name input-->
-						<div class="form-floating mb-3">
-							<input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-							<label for="name">Full name</label>
-							<div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-						</div>
-						<!-- Email address input-->
-						<div class="form-floating mb-3">
-							<input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-							<label for="email">Email address</label>
-							<div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-							<div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-						</div>
-						<!-- Phone number input-->
-						<div class="form-floating mb-3">
-							<input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-							<label for="phone">Phone number</label>
-							<div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-						</div>
-						<!-- Message input-->
-						<div class="form-floating mb-3">
-							<textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-							<label for="message">Message</label>
-							<div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-						</div>
-						<!-- Submit success message-->
-						<!---->
-						<!-- This is what your users will see when the form-->
-						<!-- has successfully submitted-->
-						<div class="d-none" id="submitSuccessMessage">
-							<div class="text-center mb-3">
-								<div class="fw-bolder">Form submission successful!</div>
-								To activate this form, sign up at
-								<br />
-								<a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+		</section>
+		<hr class="m-0" />
+
+		<!-- Contact-->
+		<section class="resume-section" id="contact">
+			<div class="resume-section-content">
+				<h2 class="mb-5">Contact</h2>
+				<p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. I will come back to you within a matter of hours to help you.</p>
+				<div class="row">
+					<div class="col-md-9 mb-md-0 mb-5">
+						<form id="contact-form" method="post">
+							<!-- <div class="row">
+								<div class="col-md-6">
+									<div class="md-form mb-0">
+										<label for="name" class="">Your name</label>
+										<input type="text" id="name" name="name" class="form-control">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="md-form mb-0">
+										<label for="email" class="">Your email</label>
+										<input type="text" id="email" name="email" class="form-control">
+									</div>
+								</div>
+							</div> -->
+							<div class="row">
+								<div class="col-md-12">
+									<div class="md-form mb-0">
+										<label for="subject" class="">Subject</label>
+										<input type="text" id="subject" name="subject" class="form-control">
+									</div>
+								</div>
 							</div>
-						</div>
-						<!-- Submit error message-->
-						<!---->
-						<!-- This is what your users will see when there is-->
-						<!-- an error submitting the form-->
-						<div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-						<!-- Submit Button-->
-						<!-- <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button> -->
-						<a href="javascript:void(0);" class="btn btn-primary btn-xl">Send</a>
-					</form>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="md-form">
+										<label for="message">Your message</label>
+										<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+									</div>
+								</div>
+							</div><br>
+							<div class="text-center text-md-left">
+								<button id="send" class="btn btn-primary">Send Email</button>
+							</div>
+						</form>
+					</div>
+					<div class="col-md-3 text-center">
+						<ul class="list-unstyled mb-0">
+							<li><i class="fas fa-map-marker-alt fa-2x"></i>
+								<p><a href="https://www.google.co.id/maps/place/Mojokerto,+Mergelo,+Kota+Mojokerto,+Jawa+Timur/@-7.4714461,112.4217213,14z/data=!3m1!4b1!4m5!3m4!1s0x2e780e3c80e50d83:0x3027a76e352bd40!8m2!3d-7.4704747!4d112.4401329" target="__blank">Mojokerto</a></p>
+							</li>
+							<li><i class="fas fa-phone mt-4 fa-2x"></i>
+								<p><a href="tel:+6285101240258">+ 62 851 0124 0258</a></p>
+							</li>
+							<li><i class="fas fa-envelope mt-4 fa-2x"></i>
+								<p><a href="mailto:ahmadzhda99@gmail.com">ahmadzhda99@gmail.com</a></p>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- Footer-->
-	<footer class="footer text-center">
-		<div class="container">
-			<div class="row">
-				<!-- Footer Location-->
-				<div class="col-lg-6 mb-5 mb-lg-0">
-					<h4 class="text-uppercase mb-4">Location</h4>
-					<p class="lead mb-0">
-						Trowulan
-						<br />
-						Mojokerto, EJ 61362
-					</p>
-				</div>
-				<!-- Footer Social Icons-->
-				<div class="col-lg-6 mb-5 mb-lg-0">
-					<h4 class="text-uppercase mb-4">Get in Touch</h4>
-					<a class="btn btn-outline-light btn-social mx-1" href="javascript:void(0);"><i class="fab fa-fw fa-facebook-f"></i></a>
-					<a class="btn btn-outline-light btn-social mx-1" href="javascript:void(0);"><i class="fab fa-fw fa-instagram"></i></a>
-					<a class="btn btn-outline-light btn-social mx-1" href="javascript:void(0);"><i class="fab fa-fw fa-linkedin-in"></i></a>
-					<a class="btn btn-outline-light btn-social mx-1" href="javascript:void(0);"><i class="fab fa-fw fa-github"></i></a>
-				</div>
-				<!-- Footer About Text-->
-				<!-- <div class="col-lg-4">
-					<h4 class="text-uppercase mb-4">About Freelancer</h4>
-					<p class="lead mb-0">
-						Freelance is a free to use, MIT licensed Bootstrap theme created by
-						<a href="http://startbootstrap.com">Start Bootstrap</a>
-						.
-					</p>
-				</div> -->
-			</div>
-		</div>
+		</section>
+		<hr class="m-0" />
+
+	</div>
+	<footer class="text-center">
+		<br/>
+		<p>&copy; 2021 · Updated on September 18, 2024 · Developed with &hearts; by <a target="__blank" href="https://instagram.com/ahmadzu__">@ahmadzu__</a></p>
+		<br/>
 	</footer>
-	<!-- Copyright Section-->
-	<div class="copyright py-4 text-center text-white">
-		<div class="container"><small>Copyright &copy; @ahmadzu__ 2025</small></div>
-	</div>
-	<!-- Portfolio Modals-->
-	<!-- Portfolio Modal 1-->
-	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-		<div class="modal-dialog modal-xl">
-			<div class="modal-content">
-				<div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-				<div class="modal-body text-center pb-5">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-lg-8">
-								<!-- Portfolio Modal - Title-->
-								<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">SIPANJOL Bapenda Kab. Mojokerto</h2>
-								<!-- Icon Divider-->
-								<div class="divider-custom">
-									<div class="divider-custom-line"></div>
-									<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-									<div class="divider-custom-line"></div>
-								</div>
-								<!-- Portfolio Modal - Image-->
-								<img class="img-fluid rounded mb-5 w-75" src="assets/img/portfolio/sipanjol1.png" alt="Sistem Informasi Pajak Daerah Online" />
-								<!-- Portfolio Modal - Text-->
-								<p class="mb-4">Sistem Pajak Daerah Online untuk Badan Pendapatan Daerah Kabupaten Mojokerto bertujuan untuk mempermudah pegawai dalam mengelola data pajak daerah serta menyediakan fitur pelaporan yang efisien tanpa harus melakukan query langsung ke database. Sistem ini dirancang untuk meningkatkan keamanan, efisiensi, dan transparansi dalam pengelolaan pajak daerah.</p>
-								<button class="btn btn-primary" data-bs-dismiss="modal">
-									<i class="fas fa-xmark fa-fw"></i>
-									Tutup
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Portfolio Modal 2-->
-	<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-		<div class="modal-dialog modal-xl">
-			<div class="modal-content">
-				<div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-				<div class="modal-body text-center pb-5">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-lg-8">
-								<!-- Portfolio Modal - Title-->
-								<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Antrean Online & ERM RSUD Dr. Wahidin Sudirohusodo</h2>
-								<!-- Icon Divider-->
-								<div class="divider-custom">
-									<div class="divider-custom-line"></div>
-									<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-									<div class="divider-custom-line"></div>
-								</div>
-								<!-- Portfolio Modal - Image-->
-								<img class="img-fluid rounded mb-5 w-75" src="assets/img/portfolio/wahidin1.png" alt="Antrean Online & ERM RSUD Dr. Wahidin Sudirohusodo" />
-								<!-- Portfolio Modal - Text-->
-								<p class="mb-4">Sistem Informasi Manajemen Rumah Sakit (SIMRS) yang dirancang untuk meningkatkan efisiensi operasional rumah sakit dengan mengintegrasikan berbagai modul layanan kesehatan. Sistem ini juga terhubung dengan Sistem Informasi BPJS Kesehatan, termasuk Antrean Online BPJS dan modul SEP (Surat Eligibilitas Peserta)</p>
-								<button class="btn btn-primary" data-bs-dismiss="modal">
-									<i class="fas fa-xmark fa-fw"></i>
-									Tutup
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Portfolio Modal 3-->
-	<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-		<div class="modal-dialog modal-xl">
-			<div class="modal-content">
-				<div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-				<div class="modal-body text-center pb-5">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-lg-8">
-								<!-- Portfolio Modal - Title-->
-								<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">SIMRS & ERM RSUD Sidoarjo Barat</h2>
-								<!-- Icon Divider-->
-								<div class="divider-custom">
-									<div class="divider-custom-line"></div>
-									<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-									<div class="divider-custom-line"></div>
-								</div>
-								<!-- Portfolio Modal - Image-->
-								<img class="img-fluid rounded mb-5 w-75" src="assets/img/portfolio/rsud_krian2.png" alt="..." />
-								<!-- Portfolio Modal - Text-->
-								<p class="mb-4">Sistem Informasi Manajemen Rumah Sakit (SIMRS) di RSUD Sidoarjo Barat dirancang untuk meningkatkan efisiensi operasional rumah sakit dengan mengintegrasikan berbagai modul layanan kesehatan yang lebih kompleks.</p>
-								<button class="btn btn-primary" data-bs-dismiss="modal">
-									<i class="fas fa-xmark fa-fw"></i>
-									Tutup
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Portfolio Modal 4-->
-	<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-		<div class="modal-dialog modal-xl">
-			<div class="modal-content">
-				<div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-				<div class="modal-body text-center pb-5">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-lg-8">
-								<!-- Portfolio Modal - Title-->
-								<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Gerejaku Apps</h2>
-								<!-- Icon Divider-->
-								<div class="divider-custom">
-									<div class="divider-custom-line"></div>
-									<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-									<div class="divider-custom-line"></div>
-								</div>
-								<!-- Portfolio Modal - Image-->
-								<img class="img-fluid rounded mb-5 w-75" src="assets/img/portfolio/gerejaku1.png" alt="Gerejaku Apps" />
-								<!-- Portfolio Modal - Text-->
-								<p class="mb-4">Gerejaku adalah Aplikasi Pendaftaran Ibadah Gereja Online yang dibuat untuk mengatur jumlah jemaat yang hadir dalam ibadah tatap muka sesuai dengan protokol kesehatan Pada tahun 2020 selama pandemi COVID-19. Saya berkontribusi sebagai Backend Developer.</p>
-								<button class="btn btn-primary" data-bs-dismiss="modal">
-									<i class="fas fa-xmark fa-fw"></i>
-									Tutup
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Portfolio Modal 5-->
-	<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-		<div class="modal-dialog modal-xl">
-			<div class="modal-content">
-				<div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-				<div class="modal-body text-center pb-5">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-lg-8">
-								<!-- Portfolio Modal - Title-->
-								<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Company Profile</h2>
-								<!-- Icon Divider-->
-								<div class="divider-custom">
-									<div class="divider-custom-line"></div>
-									<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-									<div class="divider-custom-line"></div>
-								</div>
-								<!-- Portfolio Modal - Image-->
-								<img class="img-fluid rounded mb-5 w-75" src="assets/img/portfolio/company-profile1.png" alt="..." />
-								<!-- Portfolio Modal - Text-->
-								<p class="mb-4">Website company profile ini dirancang untuk meningkatkan visibilitas online dan profesionalitas perusahaan, memberikan informasi lengkap tentang layanan yang ditawarkan, serta mempermudah calon pelanggan dalam menghubungi perusahaan.</p>
-								<button class="btn btn-primary" data-bs-dismiss="modal">
-									<i class="fas fa-xmark fa-fw"></i>
-									Tutup
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Portfolio Modal 6-->
-	<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-		<div class="modal-dialog modal-xl">
-			<div class="modal-content">
-				<div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-				<div class="modal-body text-center pb-5">
-					<div class="container">
-						<div class="row justify-content-center">
-							<div class="col-lg-8">
-								<!-- Portfolio Modal - Title-->
-								<h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">E-Payment PBB-P2 dan Pajak Daerah Lainnya</h2>
-								<!-- Icon Divider-->
-								<div class="divider-custom">
-									<div class="divider-custom-line"></div>
-									<div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-									<div class="divider-custom-line"></div>
-								</div>
-								<!-- Portfolio Modal - Image-->
-								<img class="img-fluid rounded mb-5 w-75" src="assets/img/portfolio/e-payment.png" alt="..." />
-								<!-- Portfolio Modal - Text-->
-								<p class="mb-4">Sistem E-Payment PBB-P2 & Pajak Daerah Lainnya bertujuan untuk mempermudah pembayaran Pajak Bumi dan Bangunan Perdesaan dan Perkotaan (PBB-P2) serta pajak daerah lainnya secara online. Sistem ini terintegrasi dengan bank, e-wallet, dan gerai pembayaran resmi seperti QRIS, Virtual Account, Mobile Banking, ATM, dan Minimarket.</p>
-								<button class="btn btn-primary" data-bs-dismiss="modal">
-									<i class="fas fa-xmark fa-fw"></i>
-									Tutup
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 	<!-- Bootstrap core JS-->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Third party plugin JS-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 	<!-- Core theme JS-->
 	<script src="js/scripts.js"></script>
-	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-	<!-- * *                               SB Forms JS                               * *-->
-	<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-	<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+	<script type="text/javascript">
+		$( "#send" ).click(function() {
+			if ($('#subject').val() == '') {
+				alert('Mohon isi subject email dengan benar');
+			} else if ($('#message').val() == '') {
+				alert('Mohon isi body email dengan benar');
+			} else {
+				var email = "ahmadzhda99@gmail.com";
+				var subject = $('#subject').val();
+				var body = $('#message').val();
+				var href = "mailto:"+email+"?subject="+subject+"&body="+body;
+				window.location.href = href;
+			}
+		});
+	</script>
 </body>
 </html>
